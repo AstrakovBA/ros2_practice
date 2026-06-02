@@ -1,0 +1,37 @@
+[2.070s] Invoking command in '/home/boris/ros2_ws/src/my_service_client': AMENT_PREFIX_PATH=/home/boris/ros2_ws/src/install/my_service_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/boris/ros2_ws/src/install/my_service_interfaces LD_LIBRARY_PATH=/home/boris/ros2_ws/src/install/my_service_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/boris/ros2_ws/src/build/my_service_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/boris/ros2_ws/src/install/my_service_client/lib/python3.10/site-packages:/home/boris/ros2_ws/src/install/my_service_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_service_client build --build-base /home/boris/ros2_ws/src/build/my_service_client/build install --record /home/boris/ros2_ws/src/build/my_service_client/install.log --single-version-externally-managed install_data
+[2.548s] running egg_info
+[2.549s] creating ../build/my_service_client/my_service_client.egg-info
+[2.550s] writing ../build/my_service_client/my_service_client.egg-info/PKG-INFO
+[2.551s] writing dependency_links to ../build/my_service_client/my_service_client.egg-info/dependency_links.txt
+[2.551s] writing entry points to ../build/my_service_client/my_service_client.egg-info/entry_points.txt
+[2.551s] writing requirements to ../build/my_service_client/my_service_client.egg-info/requires.txt
+[2.551s] writing top-level names to ../build/my_service_client/my_service_client.egg-info/top_level.txt
+[2.552s] writing manifest file '../build/my_service_client/my_service_client.egg-info/SOURCES.txt'
+[2.554s] reading manifest file '../build/my_service_client/my_service_client.egg-info/SOURCES.txt'
+[2.556s] writing manifest file '../build/my_service_client/my_service_client.egg-info/SOURCES.txt'
+[2.557s] running build
+[2.557s] running build_py
+[2.557s] creating /home/boris/ros2_ws/src/build/my_service_client/build
+[2.558s] creating /home/boris/ros2_ws/src/build/my_service_client/build/lib
+[2.558s] creating /home/boris/ros2_ws/src/build/my_service_client/build/lib/my_service_client
+[2.558s] copying my_service_client/client_node.py -> /home/boris/ros2_ws/src/build/my_service_client/build/lib/my_service_client
+[2.559s] copying my_service_client/__init__.py -> /home/boris/ros2_ws/src/build/my_service_client/build/lib/my_service_client
+[2.559s] running install
+[2.560s] running install_lib
+[2.563s] creating /home/boris/ros2_ws/src/install/my_service_client/lib/python3.10/site-packages/my_service_client
+[2.563s] copying /home/boris/ros2_ws/src/build/my_service_client/build/lib/my_service_client/client_node.py -> /home/boris/ros2_ws/src/install/my_service_client/lib/python3.10/site-packages/my_service_client
+[2.564s] copying /home/boris/ros2_ws/src/build/my_service_client/build/lib/my_service_client/__init__.py -> /home/boris/ros2_ws/src/install/my_service_client/lib/python3.10/site-packages/my_service_client
+[2.566s] byte-compiling /home/boris/ros2_ws/src/install/my_service_client/lib/python3.10/site-packages/my_service_client/client_node.py to client_node.cpython-310.pyc
+[2.569s] byte-compiling /home/boris/ros2_ws/src/install/my_service_client/lib/python3.10/site-packages/my_service_client/__init__.py to __init__.cpython-310.pyc
+[2.570s] running install_data
+[2.570s] creating /home/boris/ros2_ws/src/install/my_service_client/share/ament_index
+[2.570s] creating /home/boris/ros2_ws/src/install/my_service_client/share/ament_index/resource_index
+[2.571s] creating /home/boris/ros2_ws/src/install/my_service_client/share/ament_index/resource_index/packages
+[2.571s] copying resource/my_service_client -> /home/boris/ros2_ws/src/install/my_service_client/share/ament_index/resource_index/packages
+[2.572s] copying package.xml -> /home/boris/ros2_ws/src/install/my_service_client/share/my_service_client
+[2.572s] running install_egg_info
+[2.579s] Copying ../build/my_service_client/my_service_client.egg-info to /home/boris/ros2_ws/src/install/my_service_client/lib/python3.10/site-packages/my_service_client-0.0.0-py3.10.egg-info
+[2.583s] running install_scripts
+[2.661s] Installing velocity_client script to /home/boris/ros2_ws/src/install/my_service_client/lib/my_service_client
+[2.662s] writing list of installed files to '/home/boris/ros2_ws/src/build/my_service_client/install.log'
+[2.754s] Invoked command in '/home/boris/ros2_ws/src/my_service_client' returned '0': AMENT_PREFIX_PATH=/home/boris/ros2_ws/src/install/my_service_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/boris/ros2_ws/src/install/my_service_interfaces LD_LIBRARY_PATH=/home/boris/ros2_ws/src/install/my_service_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/boris/ros2_ws/src/build/my_service_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/boris/ros2_ws/src/install/my_service_client/lib/python3.10/site-packages:/home/boris/ros2_ws/src/install/my_service_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_service_client build --build-base /home/boris/ros2_ws/src/build/my_service_client/build install --record /home/boris/ros2_ws/src/build/my_service_client/install.log --single-version-externally-managed install_data

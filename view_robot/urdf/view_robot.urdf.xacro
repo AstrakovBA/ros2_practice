@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<robot name="view_robot">
+
+	<material name="blue">
+		<color rgba="0 0 1 1"/>
+	</material>
+	<material name="black">
+		<color rgba="0 0 0 1"/>
+	</material>
+	<material name="white">
+		<color rgba="1 1 1 1"/>
+	</material>
+
+	<!-- Odom link -->
+	<link name="odom"/>
+
+	<!-- Куб -->
+	<link name="base_link">
+		<visual>
+			<geometry>
+				<box size="0.1 0.1 0.1"/>
+			</geometry>
+			<material name="blue"/>
+		</visual>
+		<collision>
+			<geometry>
+				<box size="0.1 0.1 0.1"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="1"/>
+			<inertia ixx="1e-3" ixy="1e-3" ixz="1e-3"
+			         iyy="1e-3" iyz="1e-3" izz="1e-3"/>
+		</inertial>
+	</link>
+    <joint name="base_link_joint" type="fixed">
+		<parent link="odom"/>
+		<child link="base_link"/>
+		<origin xyz="0 0 0" rpy="0 0 0"/>
+	</joint>
+</robot>
